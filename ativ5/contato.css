@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-left: 0; 
+}
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+main{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    background-image: url('imagens/fundocorinthians.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 0px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin: left 0; 
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.sobre, .inicial {
+    display: inline-block;
+}
+
+.sobre {
+    text-align: left;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.inicial {
+    text-align: right;
+    margin-right: 100px;
+    text-align: center;
+}
+
